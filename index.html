@@ -6,45 +6,53 @@
   <title>سایت شخصی سهیل دوجی</title>
   <style>
     body {
-      background-color: #f8f9fa;
+      background-image: url('rick-and-morty-toilets-hd-wallpaper-preview.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       font-family: Tahoma, sans-serif;
       text-align: center;
       padding: 30px;
+      color: white;
+      backdrop-filter: brightness(0.9);
     }
     img {
       width: 200px;
       border-radius: 50%;
       margin-top: 20px;
+      border: 3px solid white;
     }
     .button {
       display: inline-block;
-      margin-top: 20px;
+      margin: 10px;
       padding: 10px 20px;
-      background-color: #25D366;
+      background-color: rgba(0, 0, 0, 0.5);
       color: white;
       text-decoration: none;
       border-radius: 8px;
       font-size: 16px;
+      transition: background 0.3s;
     }
-    .telegram {
-      background-color: #0088cc;
+    .button:hover {
+      background-color: rgba(0, 0, 0, 0.8);
     }
     .info {
       margin-top: 20px;
-      color: #333;
-      font-size: 17px;
-      line-height: 1.8;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      border-radius: 12px;
+      display: inline-block;
     }
   </style>
 </head>
 <body>
-  <h1>سلام! 🌟</h1>
-  <p>خوش آمدید به سایت شخصی سهیل دوجی</p>
+  <h1>🌟 سلام! من سهیل هستم</h1>
+  <p>خوش آمدید به سایت شخصی من</p>
 
-  <!-- عکس -->
-  <img src="IMG_20250801_124131.jpg" alt="عکس سهیل دوجی" />
+  <!-- تصویر پروفایل -->
+  <img src="IMG_20250801_124131.jpg" alt="عکس سهیل" />
 
-  <!-- اطلاعات شخصی -->
+  <!-- اطلاعات -->
   <div class="info">
     <p>📱 شماره تماس: <strong>09114651914</strong></p>
     <p>🎓 پایه: <strong>یازدهم رشته تجربی</strong></p>
@@ -52,15 +60,9 @@
     <p>🧑‍💻 سن: <strong>۱۶ سال</strong></p>
   </div>
 
-  <!-- دکمه اینستاگرام -->
-  <a href="https://instagram.com/so4il.ad" target="_blank" class="button">
-    تماس با من در اینستاگرام
-  </a>
-
-  <!-- دکمه تلگرام -->
+  <!-- دکمه‌های ارتباط -->
   <br />
-  <a href="https://t.me/soudds" target="_blank" class="button telegram">
-    ارتباط در تلگرام
-  </a>
+  <a href="https://instagram.com/so4il.ad" target="_blank" class="button">📷 اینستاگرام</a>
+  <a href="https://t.me/soudds" target="_blank" class="button">📨 تلگرام</a>
 </body>
 </html>
