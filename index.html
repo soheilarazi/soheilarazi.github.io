@@ -4,38 +4,38 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>سایت شخصی سهیل دوجی</title>
+  <!-- فونت فارسی زیبای Vazirmatn -->
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       background-image: url('rick-and-morty-toilets-hd-wallpaper-preview.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      font-family: Tahoma, sans-serif;
+      font-family: 'Vazirmatn', Tahoma, sans-serif;
       text-align: center;
       padding: 30px;
-      color: white;
+      color: #ffffff;
       backdrop-filter: brightness(0.9);
     }
-    img {
+
+    .diamond {
       width: 200px;
-      border-radius: 50%;
-      margin-top: 20px;
-      border: 3px solid white;
+      height: 200px;
+      margin: 20px auto;
+      transform: rotate(45deg);
+      overflow: hidden;
+      border: 4px solid white;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     }
-    .button {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 16px;
-      transition: background 0.3s;
+
+    .diamond img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transform: rotate(-45deg);
     }
-    .button:hover {
-      background-color: rgba(0, 0, 0, 0.8);
-    }
+
     .info {
       margin-top: 20px;
       background-color: rgba(0, 0, 0, 0.4);
@@ -43,16 +43,45 @@
       border-radius: 12px;
       display: inline-block;
     }
+
+    .button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: rgba(255, 255, 255, 0.2);
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 17px;
+      backdrop-filter: blur(4px);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .button:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+      color: black;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+    }
   </style>
 </head>
 <body>
   <h1>🌟 سلام! من سهیل هستم</h1>
   <p>خوش آمدید به سایت شخصی من</p>
 
-  <!-- تصویر پروفایل -->
-  <img src="IMG_20250801_124131.jpg" alt="عکس سهیل" />
+  <!-- عکس الماسی -->
+  <div class="diamond">
+    <img src="IMG_20250801_124131.jpg" alt="عکس سهیل" />
+  </div>
 
-  <!-- اطلاعات -->
+  <!-- اطلاعات شخصی -->
   <div class="info">
     <p>📱 شماره تماس: <strong>09114651914</strong></p>
     <p>🎓 پایه: <strong>یازدهم رشته تجربی</strong></p>
@@ -62,7 +91,7 @@
 
   <!-- دکمه‌های ارتباط -->
   <br />
-  <a href="https://instagram.com/so4il.ad" target="_blank" class="button">📷 اینستاگرام</a>
-  <a href="https://t.me/soudds" target="_blank" class="button">📨 تلگرام</a>
+  <a href="https://instagram.com/so4il.ad" target="_blank" class="button">📸 اینستاگرام</a>
+  <a href="https://t.me/soudds" target="_blank" class="button">💬 تلگرام</a>
 </body>
 </html>
