@@ -1,83 +1,111 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>سایت شخصی سهیل دوجی</title>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet" />
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
     body {
-      margin: 0;
       font-family: 'Vazirmatn', Tahoma, sans-serif;
-      background: url('rick-and-morty-toilets-hd-wallpaper-preview.jpg') no-repeat center center fixed;
+      background-image: url('rick-and-morty-toilets-hd-wallpaper-preview.jpg');
       background-size: cover;
+      background-position: center;
       color: white;
       text-align: center;
-      padding: 40px 20px;
-      backdrop-filter: brightness(0.8);
+      padding: 30px;
+      margin: 0;
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 16px;
+      padding: 20px;
+      display: inline-block;
+    }
+
+    img.profile {
+      width: 160px;
+      height: 160px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      border: 4px solid white;
     }
 
     h1 {
-      font-size: 32px;
-      background-color: rgba(0,0,0,0.5);
-      padding: 10px;
-      border-radius: 12px;
-      display: inline-block;
+      margin-bottom: 10px;
+      font-size: 28px;
     }
 
-    .section {
-      margin-top: 30px;
-      padding: 15px;
-      background-color: rgba(0, 0, 0, 0.5);
-      border-radius: 16px;
+    ol {
       text-align: right;
-      max-width: 600px;
-      margin-left: auto;
-      margin-right: auto;
-      font-size: 18px;
+      direction: rtl;
+      margin: 20px auto;
+      max-width: 500px;
+      padding-right: 20px;
+    }
+
+    li {
+      margin-bottom: 15px;
+      font-size: 16px;
       line-height: 1.8;
     }
 
-    .highlight1 { color: #ffcc00; }
-    .highlight2 { color: #00ffcc; }
-    .highlight3 { color: #ff66cc; }
-    .highlight4 { color: #66ff66; }
+    .highlight { color: #00ffcc; font-weight: bold; }
+    .green { color: #00ff88; }
+    .pink { color: #ff66cc; }
+    .yellow { color: #ffff66; }
 
-    .button {
+    .buttons a {
       display: inline-block;
-      margin-top: 25px;
-      padding: 10px 20px;
-      background-color: #25D366;
+      margin: 10px;
+      padding: 10px 18px;
+      background-color: #222;
       color: white;
       text-decoration: none;
       border-radius: 10px;
-      font-size: 17px;
+      font-size: 15px;
+      transition: background 0.3s;
     }
 
-    a.button:hover {
-      background-color: #1fa355;
+    .buttons a:hover {
+      background-color: #555;
     }
   </style>
 </head>
 <body>
-  <h1>خوش آمدید به سایت شخصی من 🎉🙂</h1>
+  <div class="container">
+    <img src="file_00000000b3d86243b1ff85607f289112.png" alt="عکس من" class="profile" />
+    <h1>خوش آمدید به سایت شخصی من 🎉🙂</h1>
 
-  <div class="section">
-    <p class="highlight1">۱. آیدی‌های ۴ حرفی اینستاگرام موجود برای خرید (همه متا آماده پرداخت) 👇</p>
-    <p><strong>@igc1</strong>: کوتاه، رسمی، مناسب برای برندهای فنی و علمی</p>
-    <p><strong>@tmjk</strong>: ترکیب حرفی خاص، مناسب افراد خاص‌پسند یا گرافیست‌ها</p>
-    <p><strong>@pc79</strong>: مناسب گیمرها، پی‌سی‌بازها، و محتوای تکنولوژی</p>
+    <ol>
+      <li class="highlight">
+        آیدی‌های ۴ حرفی اینستاگرام موجود برای خرید (همه متا آماده پرداخت) 👇<br />
+        <span class="green">@igc1:</span> کوتاه، رسمی، مناسب برای برندهای فنی و علمی<br />
+        <span class="green">@tmjk:</span> ترکیب حرفی خاص، مناسب افراد خاص‌پسند یا گرافیست‌ها<br />
+        <span class="green">@pc79:</span> مناسب گیمرها، پی‌سی‌بازها، و محتوای تکنولوژی
+      </li>
 
-    <p class="highlight2">۲. یک عدد متا آماده پرداخت یک دلاری موجود است 1$ ✅</p>
+      <li class="yellow">
+        یک عدد متا آماده پرداخت یک دلاری موجود است ✅ <strong>$1</strong>
+      </li>
 
-    <p class="highlight3">۳. آیدی‌های تیک‌تاک ۴ حرفی 👇</p>
-    <p><strong>@tvhl</strong>: مناسب ولاگرها یا تولیدکننده‌های محتوای تصویری</p>
-    <p><strong>@k389</strong>: ترکیب عدد و حرف خاص، مناسب اکانت‌های فروشگاهی یا فردی</p>
+      <li class="pink">
+        آیدی‌های تیک‌تاک ۴ حرفی 👇<br />
+        <span class="green">@tvhl:</span> مناسب ولاگرها یا تولیدکننده‌های محتوای تصویری<br />
+        <span class="green">@k389:</span> ترکیب عدد و حرف خاص، مناسب اکانت‌های فروشگاهی یا فردی
+      </li>
 
-    <p class="highlight4">۴. برای استعلام قیمت به تلگرام یا اینستاگرام زیر پیام دهید و آیدی یا نوع اکانت مورد نظر را بنویسید.</p>
+      <li class="green">
+        برای استعلام قیمت به تلگرام یا اینستاگرام زیر پیام دهید و آیدی یا نوع اکانت مورد نظر را تایپ کنید
+      </li>
+    </ol>
 
-    <a href="https://instagram.com/so4il.ad" target="_blank" class="button">اینستاگرام من</a>
-    <a href="https://t.me/soudns" target="_blank" class="button">تلگرام من</a>
+    <div class="buttons">
+      <a href="https://instagram.com/so4il.ad" target="_blank">اینستاگرام</a>
+      <a href="https://t.me/soudds" target="_blank">تلگرام</a>
+    </div>
   </div>
 </body>
 </html>
